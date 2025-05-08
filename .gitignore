@@ -1,0 +1,53 @@
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# Conda 环境
+.conda/
+*.conda
+env/
+environment.yml
+
+# 数据集和输出目录
+data/
+output/
+*.log
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.tfevents*
+
+# 临时文件和缓存
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+.cache/
+.DS_Store
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 其他
+*.csv
+*.jsonl
+*.zip
+*.tar.gz
+*.gz
+*._dsymlink
+*.so
+*.a
+*.lib
+*.o
+*.obj
